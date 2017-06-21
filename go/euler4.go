@@ -25,7 +25,7 @@ func main() {
     for j := 999; j >= i; j-- {
       z = i * j
       if ispalindromic(z) {
-        fmt.Printf("palindrome: %d\n", z)
+        //fmt.Printf("palindrome: %d\n", z)
         if (ans < z) {
           ans = z
         }
